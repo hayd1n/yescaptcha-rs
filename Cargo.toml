@@ -6,6 +6,8 @@ authors = ["Hayden Chang <m831718@gmail.com>", "hayd1n"]
 description = "YesCaptcha SDK for Rust"
 repository = "https://github.com/hayd1n/yescaptcha-rs"
 readme = "README.md"
+license = "MIT"
+license-file = "LICENSE"
 
 [dependencies]
 json = "0.12.4"
