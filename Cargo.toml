@@ -1,0 +1,19 @@
+[package]
+name = "yescaptcha"
+version = "0.1.0"
+edition = "2021"
+authors = ["Hayden Chang <m831718@gmail.com>", "hayd1n"]
+description = "YesCaptcha SDK for Rust"
+repository = "https://github.com/hayd1n/yescaptcha-rs"
+readme = "README.md"
+
+[dependencies]
+json = "0.12.4"
+reqwest = { version = "0.12.5", features = ["json"] }
+serde = { version = "1.0.207", features = ["derive"] }
+serde_json = "1.0.125"
+tokio = "1.39.2"
+url = "2.5.2"
+
+[dev-dependencies]
+tokio = { version = "1.39.2", features = ["full"] }
