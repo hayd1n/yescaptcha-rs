@@ -12,7 +12,7 @@ cargo add yescaptcha
 
 [All examples](./examples/)
 
-### ReCaptchaV2
+### ReCaptcha V2
 
 ```rust
 use std::time::Duration;
